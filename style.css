@@ -1,0 +1,41 @@
+#nav {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.submit {
+    background: black !important;
+    color: #fff;
+}
+
+.course {
+    font-weight: 600!important;
+}
+
+.teacher {
+    background-color: gainsboro;
+}
+
+@media (max-width: 800px) {
+    #image-teacher {
+        width: 100px;
+        margin-top: 50px;
+    }
+
+}
+
+@media (min-width: 400px) {
+    .course {
+        margin-top: 100px !important;
+    }
+    
+
+    
+}
+
+
+#graduate:hover {
+    background: black;
+    transition: 0.3s;
+}
